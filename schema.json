@@ -1,0 +1,42 @@
+{
+  "request": {
+    "properties": {
+      "prompt": {
+        "title": "Prompt",
+        "type": "string"
+      },
+      "height": {
+        "maximum": 2048,
+        "minimum": 256,
+        "title": "Height",
+        "type": "integer"
+      },
+      "width": {
+        "maximum": 2048,
+        "minimum": 256,
+        "title": "Width",
+        "type": "integer"
+      }
+    },
+    "required": [
+      "prompt",
+      "height",
+      "width"
+    ],
+    "title": "RequestPayload",
+    "type": "object"
+  },
+  "response": {
+    "properties": {
+      "image": {
+        "title": "Image",
+        "type": "string"
+      }
+    },
+    "required": [
+      "image"
+    ],
+    "title": "ResponsePayload",
+    "type": "object"
+  }
+}

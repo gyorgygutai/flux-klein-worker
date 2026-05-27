@@ -1,0 +1,11 @@
+runpod
+diffusers
+transformers
+accelerate
+safetensors
+torch
+huggingface_hub
+pillow
+sdnq
+triton
+pydantic
