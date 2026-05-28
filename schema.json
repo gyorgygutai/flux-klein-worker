@@ -16,6 +16,33 @@
         "minimum": 256,
         "title": "Width",
         "type": "integer"
+      },
+      "input_image": {
+        "anyOf": [
+          {
+            "type": "string"
+          },
+          {
+            "type": "null"
+          }
+        ],
+        "default": null,
+        "title": "Input Image"
+      },
+      "reference_images": {
+        "anyOf": [
+          {
+            "items": {
+              "type": "string"
+            },
+            "type": "array"
+          },
+          {
+            "type": "null"
+          }
+        ],
+        "default": null,
+        "title": "Reference Images"
       }
     },
     "required": [
