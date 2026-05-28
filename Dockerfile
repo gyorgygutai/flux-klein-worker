@@ -10,5 +10,6 @@ RUN python3.11 -m pip install --upgrade pip && \
     python3.11 -m pip install --no-cache-dir -r requirements.txt
 
 COPY handler.py .
+COPY models.py .
 
 CMD ["python3.11", "-u", "handler.py"]

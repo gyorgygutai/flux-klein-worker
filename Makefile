@@ -1,5 +1,5 @@
 IMAGE=ghcr.io/gyorgygutai/flux-klein-worker
-VERSION=v1.0.6
+VERSION=v1.2.0
 
 venv:
 	python3 -m venv venv
